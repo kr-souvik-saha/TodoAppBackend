@@ -19,7 +19,6 @@ const getTodo = asyncHandler(async (req, res) => {
 });
 
 const createTodo = asyncHandler(async (req, res) => {
-    console.log(req.body);
     const {
         subject,
         description,
